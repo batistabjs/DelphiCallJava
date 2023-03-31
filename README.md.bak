@@ -4,17 +4,17 @@
 <a href="https://ge.spring.io/scans?&amp;search.rootProjectNames=Spring%20Boot%20Build&amp;search.rootProjectNames=spring-boot-build" rel="nofollow"><img src="https://camo.githubusercontent.com/077dbe87ec44e1f7ca17e7a75b0c646bc2b44851e1bf530482404b6b59e0d60d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f526576766564253230757025323062792d477261646c65253230456e74657270726973652d3036413043453f6c6f676f3d477261646c65266c6162656c436f6c6f723d303233303341" alt="Revved up by Gradle Enterprise" data-canonical-src="https://img.shields.io/badge/Revved%20up%20by-Gradle%20Enterprise-06A0CE?logo=Gradle&amp;labelColor=02303A" style="max-width: 100%;"></a>
 </p>
 
-## DelphiCallJava
+# DelphiCallJava
 Aplicação Delphi chamando aplicação java em runtime.
 
-### Gerar o .jar backend
+## Gerar o .jar backend
 Para executar o projeto você precisa ter o Java 11, Spring Boot na versão 3.0.0-M2 e maven 3.8.5.
 - na raiz do backend execute o comando:
 
 
 	$ mvn clean install
 	
-### Gerar o dist frontend
+## Gerar o dist frontend
 Para executar o projeto você precisa ter o node 17 e Vuejs 3.
 - na raiz do frontend execute o comando:
 
@@ -24,11 +24,11 @@ Para executar o projeto você precisa ter o node 17 e Vuejs 3.
 
 - suba a aplicação para algum server. Exemplo: https://surge.sh
 
-### Gerar o .exe delphi
+## Gerar o .exe delphi
 Para executar o projeto você precisa ter o Delphi 10 e lib CEF4Delphi (Chromium) e jdk11.
-- crie uma pasta chamada backend no diretório do exe e mova o .jar para esta pasta.
-- crie uma pasta para o jdk11 no diretório do exe e extraia o java para a mesma.
+- crie uma pasta chamada backend no diretório do exe.
+- crie uma pasta para o jdk11 no diretório do exe.
 
 
-### License
+## License
 Open Source software released under the <a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0 license.
